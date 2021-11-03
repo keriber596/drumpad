@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>573</width>
+    <height>336</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">outline: none;
+    cursor: pointer;
+    background: none;
+    transition: .5s;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: &quot;Lato&quot;,sans-serif;
+border: 2px solid rgb(15, 47, 255);
+  color:  rgb(15, 47, 255);</string>
+   </property>
+   <property name="text">
+    <string>Меню</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>140</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">outline: none;
+    cursor: pointer;
+    background: none;
+    transition: .5s;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: &quot;Lato&quot;,sans-serif;
+border: 2px solid rgb(15, 47, 255);
+  color:  rgb(15, 47, 255);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Добавить пресет</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
+</ui>
