@@ -11,8 +11,9 @@ from werkzeug.security import check_password_hash, generate_password_hash
 import simpleaudio
 import os
 
+#стандартный цвет кнопок, вынесен сюда для возможности менять не только заливку фона, но и цвет кнопок
 BTN_COLOR = "#0f2fff"
-
+#стандартный стиль всех кнопок
 DEFAULT_STYLE = f'outline: none;' \
                 f'cursor: pointer;' \
                 f'background: none;' \
@@ -47,6 +48,7 @@ class MyWidget(QMainWindow):
             self.presets_list = ["acoustic.txt", "roland-808.txt"]
         self.label.setText(current_user)
         self.preset_change()
+        #чтение пресета из файла
         for i in range(len(self.presets_list)):
             i1 = open(self.presets_list[i], "r", encoding="UTF-8").readline().strip("\n")
             self.comboBox.insertItem(i, i1)
@@ -58,7 +60,8 @@ class MyWidget(QMainWindow):
         f = open(fname, mode="r", encoding="UTF-8")
         self.title = f.readline()
         self.samples = [i.strip("\n").split(";") for i in f.readlines()]
-
+    
+    #практически идентичные события нажатия
     def keyPressEvent(self, event):
         self.index = -1
         if not event.modifiers():
@@ -77,7 +80,7 @@ class MyWidget(QMainWindow):
                 index = i
                 play(self.samples[index][0])
                 break
-
+    #действия при смене пресета
     def preset_change(self):
         self.open_preset(self.presets_list[self.comboBox.currentIndex()])
         self.x = int(sqrt(len(self.samples)))
@@ -111,7 +114,7 @@ class MenuWindow(QWidget):
     def login(self):
         self.login_window = LoginWindow()
         self.login_window.show()
-
+    
     def color_change(self):
         color = QColorDialog.getColor().getRgb()
         self.setStyleSheet(f"background-color:rgb({color[0]}, {color[1]}, {color[2]})")
@@ -125,7 +128,7 @@ class LoginWindow(QWidget):
         uic.loadUi("login_form.ui", self)
         self.pushButton_2.clicked.connect(self.register)
         self.id = 0
-
+    
     def register(self):
         self.label.hide()
         self.pushButton_2.hide()
