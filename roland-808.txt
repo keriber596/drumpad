@@ -1,0 +1,17 @@
+Roland TR-808
+Roland TR-808\TR-808Clap01.wav;Q
+Roland TR-808\TR-808Clave.wav;W
+Roland TR-808\TR-808Conga01.wav;E
+Roland TR-808\TR-808Conga02.wav;R
+Roland TR-808\TR-808Cow.wav;T
+Roland TR-808\TR-808Hat_C01.wav;Y
+Roland TR-808\TR-808Hat_O01.wav;A
+Roland TR-808\TR-808Kick01.wav;S
+Roland TR-808\TR-808Kick05.wav;D
+Roland TR-808\TR-808Kick08.wav;F
+Roland TR-808\TR-808Ride02.wav;G
+Roland TR-808\TR-808Shaker01.wav;H
+Roland TR-808\TR-808Snare02.wav;Z
+Roland TR-808\TR-808Snare13.wav;X
+Roland TR-808\TR-808Tom03.wav;C
+Roland TR-808\TR-808Tom02.wav;V

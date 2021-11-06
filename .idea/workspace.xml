@@ -1,31 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:repo1" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="078b17c5-5946-4766-b038-89876b649677" name="Default Changelist" comment="" />
+    <list default="true" id="078b17c5-5946-4766-b038-89876b649677" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/login_form.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roland-808.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roland TR-808/TR-808Kick09.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roland TR-808/TR-808Snare10.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/acoustic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/acoustic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drum.ui" beforeDir="false" afterPath="$PROJECT_DIR$/drum.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="20JeI52LRvtQaejCsxn1x6zcvqU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yacho\PycharmProjects\pythonProject1" />
       <recent name="C:\Users\yacho\PycharmProjects\pythonProject1\Roland TR-808" />
       <recent name="C:\Users\yacho\PycharmProjects\pythonProject1\acoustic" />
-      <recent name="C:\Users\yacho\PycharmProjects\pythonProject1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="fff1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -39,6 +75,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fff1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,9 +149,11 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.fff1" />
+      <item itemvalue="Python.main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.fff1" />
       </list>
     </recent_temporary>
@@ -109,6 +168,20 @@
       <updated>1635767036375</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="208" key="#Notifications" timestamp="1635767771737">
@@ -131,25 +204,29 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="538" y="304" key="Github.CreateGistDialog/62.0.1304.768@62.0.1304.768" timestamp="1635954224026" />
-    <state width="1283" height="192" key="GridCell.Tab.0.bottom" timestamp="1635969248127">
+    <state width="1283" height="192" key="GridCell.Tab.0.bottom" timestamp="1636225357401">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1283" height="192" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1635969248127" />
-    <state width="1283" height="192" key="GridCell.Tab.0.center" timestamp="1635969248127">
+    <state width="1283" height="192" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1636225357401" />
+    <state width="1283" height="192" key="GridCell.Tab.0.center" timestamp="1636225357401">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1283" height="192" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1635969248127" />
-    <state width="1283" height="192" key="GridCell.Tab.0.left" timestamp="1635969248127">
+    <state width="1283" height="192" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1636225357401" />
+    <state width="1283" height="192" key="GridCell.Tab.0.left" timestamp="1636225357401">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1283" height="192" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1635969248127" />
-    <state width="1283" height="192" key="GridCell.Tab.0.right" timestamp="1635969248127">
+    <state width="1283" height="192" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1636225357401" />
+    <state width="1283" height="192" key="GridCell.Tab.0.right" timestamp="1636225357401">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1283" height="192" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1635969248127" />
+    <state width="1283" height="192" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1636225357401" />
     <state x="215" y="29" key="SettingsEditor" timestamp="1635955761526">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="215" y="29" key="SettingsEditor/62.0.1304.768@62.0.1304.768" timestamp="1635955761526" />
+    <state x="377" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1636130405365">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="377" y="89" width="672" height="678" key="search.everywhere.popup/62.0.1304.768@62.0.1304.768" timestamp="1636130405365" />
   </component>
 </project>

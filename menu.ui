@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>271</width>
+    <height>202</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>МЕНЮ</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">outline: none;
+                                      cursor: pointer;
+                                    background: none;
+                                      transition: .5s;
+                                      font-size: 14px;
+                                      border-radius: 5px;
+                                      font-family: sans-serif;
+                                      border: 2px solid #0f2fff;
+                                      color:#12087e;
+                                      width:120px;height:60px;</string>
+   </property>
+   <property name="text">
+    <string>Сменить пользователя</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>70</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">outline: none;
+                                      cursor: pointer;
+                                    background: none;
+                                      transition: .5s;
+                                      font-size: 14px;
+                                      border-radius: 5px;
+                                      font-family: sans-serif;
+                                      border: 2px solid #0f2fff;
+                                      color:#12087e;
+                                      width:120px;height:60px;</string>
+   </property>
+   <property name="text">
+    <string>Изменить цвет фона</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>120</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">outline: none;
+                                      cursor: pointer;
+                                    background: none;
+                                      transition: .5s;
+                                      font-size: 14px;
+                                      border-radius: 5px;
+                                      font-family: sans-serif;
+                                      border: 2px solid #0f2fff;
+                                      color:#12087e;
+                                      width:120px;height:60px;</string>
+   </property>
+   <property name="text">
+    <string>Добавить пресет</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

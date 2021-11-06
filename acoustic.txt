@@ -1,13 +1,13 @@
 Акустика
-crash;acoustic\crash-acoustic.wav;E
-hihat 1;acoustic\hihat-acoustic01.wav;R
-hihat 2;acoustic\hihat-acoustic02.wav;T
-kick 1;acoustic\kick-acoustic01.wav;Y
-kick 2;acoustic\kick-acoustic02.wav;D
-openhat;acoustic\openhat-acoustic01.wav;F
-ride 1;acoustic\ride-acoustic01.wav;G
-ride 2;acoustic\ride-acoustic02.wav;H
-snare 1;acoustic\snare-acoustic01.wav;C
-snare 2;acoustic\snare-acoustic02.wav;V
-tom 1;acoustic\tom-acoustic01.wav;B
-tom 2;acoustic\tom-acoustic02.wav;N
+acoustic\crash-acoustic.wav;E
+acoustic\hihat-acoustic01.wav;R
+acoustic\hihat-acoustic02.wav;T
+acoustic\kick-acoustic01.wav;Y
+acoustic\kick-acoustic02.wav;D
+acoustic\openhat-acoustic01.wav;F
+acoustic\ride-acoustic01.wav;G
+acoustic\ride-acoustic02.wav;H
+acoustic\snare-acoustic01.wav;C
+acoustic\snare-acoustic02.wav;V
+acoustic\tom-acoustic01.wav;B
+acoustic\tom-acoustic02.wav;N
